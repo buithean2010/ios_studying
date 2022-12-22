@@ -13,6 +13,7 @@ struct ContentView: View {
             RoundedRectangle(cornerRadius: 20).stroke(lineWidth: 3)
             Text("Hello, world!")
         }).foregroundColor(Color.red)
+            .padding(10)
         
     }
 }
